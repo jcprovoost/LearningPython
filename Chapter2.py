@@ -9,7 +9,7 @@ fifteenPerc = int(totalPrice / 100 * 15)
 twentyPerc = int(totalPrice / 100 * 15)
 
 print("\nFeeling satisfied? With a total of €",totalPrice,", a 15% tip would be €" \
-       ,fifteenPerc,"\nIn total this is £",billTotal + fiftenTip)
+       ,fifteenPerc,"\nIn total this is €",totalPrice + fifteenPerc)
 
-print("\nIf you're feeling generous then a 20% tip would be £" \
-       ,twentyTip,"\nIn total this is £",billTotal + twentyTip)
+print("\nWant to be really generous? Give a tip of € \
+       ,twentyPerc,"\nIn total this is €",totalPrice + twentyPerc)
